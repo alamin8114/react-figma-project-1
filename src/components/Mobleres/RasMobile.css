@@ -1,0 +1,18 @@
+.res-nav{
+    @apply lg:hidden py-[15px]
+}
+.res-menu-row{
+    @apply  flex justify-between items-center
+}
+.res-logo img{
+    @apply w-[100px] inline-block
+}
+.res-icon{
+    @apply w-[40px] h-[30px] border-[2px] border-red-500 flex justify-center items-center
+}
+.res-icon .icon{
+    @apply text-[22px]
+}
+.res-navbar {
+    @apply bg-green-500 p-5 
+}
