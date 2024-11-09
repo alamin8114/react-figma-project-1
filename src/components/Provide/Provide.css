@@ -1,0 +1,25 @@
+.alamin-provide{
+    @apply flex w-full justify-between items-center
+}
+
+.Provide-img{
+    @apply w-[508px]
+}
+.provide-text h2{
+    @apply w-[384px] text-[35px] font-rubik font-semibold text-[#0B132A] mb-[20px]
+}
+.provide-text p{
+    @apply w-[427px] mb-[20px] text-[16px] font-rubik font-normal text-[#4F5665]
+}
+.single-right-icon{
+    @apply flex gap-[10px]
+}
+.right-icon{
+    @apply w-[24px] h-[24px] bg-[#2FAB73] rounded-full flex justify-center items-center
+}
+.tik-mark{
+    @apply text-white 
+}
+.single-right-icon{
+    @apply text-[14px] font-rubik font-semibold 
+}

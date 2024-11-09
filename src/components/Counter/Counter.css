@@ -1,0 +1,33 @@
+.Counter{
+    @apply  w-full mt-[103px] mb-[96px]
+}
+.alamin-main-counter{
+    @apply px-[91px] py-[68px] shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] flex justify-between
+}
+.single-counter{
+    @apply flex gap-[130px]
+}
+.alamin-counter{
+    @apply flex items-center gap-[37px]
+}
+.count-icon{
+    @apply w-[55px] h-[55px] rounded-full bg-[#FFECEC] flex justify-center items-center
+}
+.icon-count{
+    @apply  text-[#F53838]
+}
+.main-count{
+    @apply flex justify-center items-center flex-col 
+}
+.counter-box{
+    @apply flex
+}
+.count{
+    @apply text-[25px] font-rubik font-bold text-[#0B132A]
+}
+.plus{
+    @apply text-[25px] font-rubik font-bold text-[#0B132A]
+}
+.count-line{
+    @apply w-[2px] h-[125px] bg-[#EEEFF2]
+}

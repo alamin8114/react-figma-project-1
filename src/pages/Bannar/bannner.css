@@ -1,0 +1,21 @@
+.banner{
+    @apply pt-[100px]
+}
+.alamin-banner-row{
+    @apply flex items-center justify-between
+}
+.banner-text h1{
+    @apply w-[555px] text-[50px] font-rubik text-[#0B132A] font-medium
+}
+.banner-text h1 span{
+    @apply font-bold
+}
+.banner-text p{
+    @apply w-[555px] text-[16px] font-rubik pb-[50px] text-[#0B132A] font-medium
+}
+.banner-text a{
+    @apply px-[78px] py-[18px] bg-[#F53838] text-[16px] font-bold font-rubik text-[#FFFFFF] rounded-[10px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]
+}
+.banner-img img{
+    @apply w-[612px]
+}

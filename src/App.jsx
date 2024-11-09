@@ -1,7 +1,6 @@
 import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router-dom'
 import './App.css'
 import LayoutOne from './LayoutOne/LayoutOne'
-import MobleRes from './components/Mobleres/MobleRes'
 import Home from './pages/Home'
 
 function App() {
@@ -9,7 +8,6 @@ function App() {
   createRoutesFromElements(
       <Route path='/' element={<LayoutOne/>}>
         <Route path='/Home' element={<Home/>}/>
-        <Route path='/Mobile' element={<MobleRes/>}/>
       </Route>
   )
  )
