@@ -1,21 +1,24 @@
 .banner{
-    @apply pt-[100px]
+    @apply lg:pt-[100px] pt-[30px] 
 }
 .alamin-banner-row{
-    @apply flex items-center justify-between
+    @apply flex justify-between items-center flex-wrap lg:flex-nowrap lg:flex-row flex-col-reverse
 }
 .banner-text h1{
-    @apply w-[555px] text-[50px] font-rubik text-[#0B132A] font-medium
+    @apply lg:w-[555px] w-full text-[35px] lg:text-[50px] font-rubik text-[#0B132A] font-medium lg:text-left md:text-left text-center
 }
 .banner-text h1 span{
     @apply font-bold
 }
 .banner-text p{
-    @apply w-[555px] text-[16px] font-rubik pb-[50px] text-[#0B132A] font-medium
+    @apply w-full lg:w-[555px] text-[14px] lg:text-[16px] font-rubik pb-[30px] lg:pb-[50px] text-[#0B132A] font-medium lg:text-left md:text-left text-center
+}
+.button-banner{
+    @apply flex justify-center items-center lg:justify-start
 }
 .banner-text a{
-    @apply px-[78px] py-[18px] bg-[#F53838] text-[16px] font-bold font-rubik text-[#FFFFFF] rounded-[10px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]
+    @apply px-[65px] lg:px-[78px] py-[18px] bg-[#F53838] text-[16px] font-bold font-rubik text-[#FFFFFF] rounded-[10px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.3)]
 }
 .banner-img img{
-    @apply w-[612px]
+    @apply lg:w-[612px] w-full
 }

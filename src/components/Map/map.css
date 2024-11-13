@@ -1,0 +1,157 @@
+.map-head h1{
+    @apply text-[30px] lg:text-[35px] font-rubik font-medium text-[#0B132A] w-full  lg:w-[384px] text-center m-auto pt-[80px] lg:pt-[150px]
+}
+.map-head p{
+    @apply text-[14px] lg:text-[16px] font-rubik font-medium text-[#4F5665] w-full lg:w-[555px] text-center m-auto mt-[20px] mb-[100px] lg:mb-[155px]
+}
+.map-img{
+    @apply relative
+}
+.map-img img{
+    @apply lg:w-[1060px] w-full
+}
+.map-icon img{
+    @apply w-[25px] lg:w-[38px] absolute lg:top-[134px] lg:left-[129px] md:top-[150px] md:left-[120px] sm:top-[135px] sm:left-[103px] top-[100px] left-[75px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom{
+    @apply w-[20px] sm:w-[28px] absolute top-[37px] left-[15px] md:top-[57px] sm:top-[45px] sm:left-[19px] lg:top-[85px] lg:left-[25px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-2{
+    @apply w-[32px] absolute lg:top-[80px] lg:left-[115px] top-[70px] left-[65px] sm:top-[100px] sm:left-[90px]   ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-3{
+    @apply  w-[24px] md:w-[36px] absolute lg:top-[85px] lg:left-[200px] md:top-[60px] md:left-[125px] top-[40px] left-[75px] sm:top-[55px] sm:left-[100px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-4{
+    @apply w-[28px] md:w-[36px] absolute xl:top-[130px] xl:left-[275px] lg:top-[120px] lg:left-[235px] md:top-[95px] md:left-[190px]  sm:top-[80px] sm:left-[155px] top-[60px] left-[120px]   ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-5{
+    @apply w-[25px] md:w-[36px] absolute xl:top-[205px] xl:left-[235px] lg:top-[175px] lg:left-[195px] md:top-[140px] md:left-[160px] sm:top-[120px] sm:left-[130px] top-[90px] left-[100px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-6{
+    @apply w-[30px] md:w-[36px] absolute xl:top-[205px] xl:left-[235px] lg:top-[265px] lg:left-[240px] md:top-[215px]
+    md:left-[195px] sm:top-[178px] sm:left-[162px] top-[140px] left-[125px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-7{
+    @apply w-[30px] md:w-[36px] absolute xl:top-[230px] xl:left-[180px] lg:top-[320px] lg:left-[260px] md:top-[260px] md:left-[210px] sm:top-[220px] sm:left-[175px] top-[165px] left-[130px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-8{
+    @apply w-[30px] md:w-[36px] absolute xl:top-[230px] xl:left-[180px] lg:top-[300px] lg:left-[305px] md:top-[245px] md:left-[245px] sm:top-[200px] sm:left-[200px] top-[155px] left-[150px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-9{
+    @apply w-[22px] md:w-[28px] absolute xl:top-[300px] xl:left-[285px] lg:top-[375px] lg:left-[255px] md:top-[305px] md:left-[205px] sm:top-[260px] sm:left-[170px] top-[195px] left-[130px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-10{
+    @apply w-[38px] absolute xl:top-[360px] xl:left-[306px] lg:top-[235px] lg:left-[400px] md:top-[188px] md:left-[335px] sm:top-[153px] sm:left-[267px] top-[113px] left-[210px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-11{
+    @apply lg:w-[40px] absolute xl:top-[352px] xl:left-[370px] lg:top-[255px] lg:left-[510px] md:top-[215px] md:left-[426px] sm:top-[176px] sm:left-[350px] top-[135px] left-[265px]  ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-12{
+    @apply w-[32px] absolute xl:top-[430px] xl:left-[300px] lg:top-[335px] lg:left-[480px] md:top-[270px] md:left-[393px] sm:top-[220px] sm:left-[322px] top-[180px] left-[245px]  ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-13{
+    @apply w-[20px] sm:w-[32px] absolute xl:top-[0px] xl:left-[268px] lg:top-[0px] lg:left-[230px] md:top-[0px] md:left-[182px] sm:top-[0px] sm:left-[145px] top-[0px] left-[116px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-14{
+    @apply w-[25px] sm:w-[32px] absolute xl:top-[20px] xl:left-[332px] lg:top-[30px] lg:left-[295px] md:top-[23px] md:left-[243px] sm:top-[20px] sm:left-[200px] top-[18px] left-[157px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-15{
+    @apply w-[23px] sm:w-[28px] absolute xl:top-[85px] xl:left-[350px] lg:top-[78px] lg:left-[303px] md:top-[60px] md:left-[246px] sm:top-[48px] sm:left-[200px] top-[37px] left-[155px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-16{
+    @apply w-[30px] md:w-[35px] absolute xl:top-[15px] xl:left-[415px] lg:top-[10px] lg:left-[350px] md:top-[6px] md:left-[282px] sm:top-[5px] sm:left-[236px] top-[0px] left-[178px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-17{
+    @apply w-[35px] absolute xl:top-[100px] xl:left-[529px] lg:top-[85px] lg:left-[450px] md:top-[67px] md:left-[366px] sm:top-[55px] sm:left-[300px] top-[39px] left-[230px];
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-18{
+    @apply w-[30px] md:w-[35px] absolute xl:top-[160px] xl:left-[560px] lg:top-[145px] lg:left-[478px] md:top-[115px] md:left-[390px] sm:top-[96px] sm:left-[319px] top-[70px] left-[245px] ;
+    animation: map-any 1.5s linear infinite;
+}.map-icon .pothom-19{
+    @apply w-[35px] absolute xl:top-[105px] xl:left-[630px]  lg:top-[100px] lg:left-[550px] md:top-[83px] md:left-[437px] sm:top-[68px] sm:left-[352px] top-[50px] left-[270px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-20{
+    @apply w-[28px] lg:w-[35px] absolute xl:top-[375px] xl:left-[555px]  lg:top-[212px] lg:left-[620px] md:top-[178px] md:left-[509px] sm:top-[144px] sm:left-[419px] top-[110px] left-[320px]  ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-21{
+    @apply w-[32px] lg:w-[40px] absolute xl:top-[255px] xl:left-[570px]  lg:top-[145px] lg:left-[645px] md:top-[123px] md:left-[540px] sm:top-[100px] sm:left-[440px] top-[72px] left-[345px]  ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-22{
+    @apply w-[25px] absolute xl:top-[290px] xl:left-[470px] lg:top-[205px] lg:left-[715px] md:top-[165px] md:left-[584px] sm:top-[133px] sm:left-[480px] top-[100px] left-[365px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-23{
+    @apply w-[25px] absolute xl:top-[70px] xl:left-[730px] lg:top-[65px] lg:left-[635px] md:top-[52px] md:left-[520px] sm:top-[40px] sm:left-[430px] top-[34px] left-[322px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-24{
+    @apply w-[40px] absolute xl:top-[120px] xl:left-[770px] lg:top-[285px] lg:left-[695px] md:top-[230px] md:left-[565px] sm:top-[190px] sm:left-[466px] top-[142px] left-[357px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-25{
+    @apply w-[40px] absolute xl:top-[220px] xl:left-[810px] lg:top-[75px] lg:left-[740px] md:top-[50px] md:left-[615px] sm:top-[35px] sm:left-[493px] top-[27px] left-[380px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-26{
+    @apply w-[40px] absolute xl:top-[240px] xl:left-[720px] lg:top-[183px] lg:left-[518px] md:top-[155px] md:left-[427px] sm:top-[120px] sm:left-[349px] top-[90px] left-[267px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-27{
+    @apply w-[24px] lg:w-[40px] absolute xl:top-[80px] xl:left-[880px] lg:top-[135px] lg:left-[757px] md:top-[115px] md:left-[624px] sm:top-[93px] sm:left-[508px] top-[69px] left-[394px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-28{
+    @apply w-[26px] absolute xl:top-[80px] xl:left-[985px] lg:top-[65px] lg:left-[867px] md:top-[53px] md:left-[717px] sm:top-[43px] sm:left-[583px] top-[33px] left-[448px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-29{
+    @apply w-[40px] absolute xl:top-[420px] xl:left-[835px] lg:top-[350px] lg:left-[720px] md:top-[287px] md:left-[595px] sm:top-[235px] sm:left-[487px] top-[177px] left-[370px]  ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-30{
+    @apply w-[24px] absolute xl:top-[330px] xl:left-[780px] lg:top-[385px] lg:left-[792px] md:top-[316px] md:left-[648px] sm:top-[259px] sm:left-[535px] top-[196px] left-[411px] ;
+    animation: map-any 1.5s linear infinite;
+}
+.map-icon .pothom-31{
+    @apply w-[24px] absolute xl:top-[445px] xl:left-[915px] lg:top-[300px] lg:left-[786px] md:top-[245px] md:left-[645px] sm:top-[200px] sm:left-[530px] top-[154px] left-[408px] ;
+    animation: map-any 1.5s linear infinite;
+}
+@keyframes map-any{
+    0%{
+        transform: scale(0%);
+    }
+    50%{
+        transform: scale(100%);
+    }
+    100%{
+        transform: scale(0%);
+    }
+}
+.mask img{
+    @apply w-[100px] md:w-[150px] 
+}
+.mask {
+    @apply flex lg:justify-between justify-around items-center lg:mt-[35px] mt-[25px]
+}

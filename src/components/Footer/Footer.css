@@ -1,0 +1,36 @@
+.footer-row{
+    @apply flex justify-between mt-[64px] mb-[20px] flex-wrap lg:flex-nowrap
+}
+.footer-left .logo img{
+    @apply w-[100px] lg:w-[150px] 
+}
+.footer-left p{
+    @apply text-[16px] mt-[20px] mb-[30px] text-[#4F5665] font-rubik font-normal w-[100%] lg:w-[340px]
+}
+.footer-left p span{
+    @apply font-medium
+}
+.footer-icons {
+    @apply flex gap-[20px] justify-center items-center lg:justify-start lg:items-start
+}
+.footer-icons .icon-box{
+    @apply w-[34px] h-[34px] rounded-full shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] flex justify-center items-center
+}
+.footer-icons .icon-box .ft-icon{
+    @apply text-[22px] text-Brand-color
+}
+.Copy p{
+    @apply text-[16px] text-[#AFB5C0] font-rubik font-normal mt-[30px] text-center lg:text-left
+}
+.Copy p span{
+    @apply font-medium
+}
+.footer-right-flex{
+    @apply flex gap-[40px] lg:gap-[125px] flex-wrap justify-center items-center lg:justify-start lg:items-start
+}
+.footer-text h3{
+    @apply text-[18px] text-[#0B132A] font-rubik font-medium
+}
+.footer-text ul li a{
+    @apply text-[16px] text-[#4F5665] font-rubik font-light
+}

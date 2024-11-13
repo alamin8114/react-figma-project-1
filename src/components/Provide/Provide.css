@@ -1,18 +1,21 @@
+.Provide{
+    @apply lg:pb-[131px] pb-[30px]
+}
 .alamin-provide{
-    @apply flex w-full justify-between items-center
+    @apply flex w-full justify-between items-center flex-wrap lg:flex-nowrap 
 }
 
 .Provide-img{
-    @apply w-[508px]
+    @apply lg:w-[508px] w-full
 }
 .provide-text h2{
-    @apply w-[384px] text-[35px] font-rubik font-semibold text-[#0B132A] mb-[20px]
+    @apply w-full text-center lg:text-left lg:w-[384px] text-[30px] lg:text-[35px] font-rubik font-semibold text-[#0B132A] mb-[20px]
 }
 .provide-text p{
-    @apply w-[427px] mb-[20px] text-[16px] font-rubik font-normal text-[#4F5665]
+    @apply w-full text-center lg:text-left lg:w-[427px] mb-[20px] text-[16px] font-rubik font-normal text-[#4F5665]
 }
 .single-right-icon{
-    @apply flex gap-[10px]
+    @apply flex lg:gap-[10px] gap-[10px] 
 }
 .right-icon{
     @apply w-[24px] h-[24px] bg-[#2FAB73] rounded-full flex justify-center items-center
@@ -20,6 +23,6 @@
 .tik-mark{
     @apply text-white 
 }
-.single-right-icon{
-    @apply text-[14px] font-rubik font-semibold 
+.single-right-icon p{
+    @apply text-[14px] font-rubik font-semibold text-left
 }

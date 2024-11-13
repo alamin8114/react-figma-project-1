@@ -1,0 +1,83 @@
+
+
+.customer-head h1{
+    @apply w-[100%] lg:w-[448px] text-[32px] lg:text-[35px] font-rubik font-medium text-center m-auto text-[#0B132A] pt-[50px] pb-[20px]
+}
+.customer-head p{
+    @apply w-full lg:w-[555px] text-[16px] font-rubik font-normal text-center m-auto text-[#0B132A] mb-[60px] 
+}
+
+.single-slider{
+    @apply w-[100%] p-[30px] rounded-[10px] shadow-[0_35px_15px_rgb(2,2,2,0.2)]
+}
+.slider-heading{
+    @apply flex justify-between items-center
+}
+.slider-heading .slider-img{
+    @apply flex gap-[20px]
+}
+.reting{
+    @apply flex gap-[10px] justify-center items-center
+}
+.slider-heading .slider-img img{
+    @apply w-[30px] lg:w-[50px]
+}
+.slider-head h2{
+    @apply text-[16px] lg:text-[18px] text-[#0B132A] font-rubik font-medium 
+}
+.slider-head p{
+    @apply text-[12px] lg:text-[14px] text-[#4F5665] font-rubik font-normal 
+}
+.reting p{
+    @apply text-[16px] text-[#0B132A] font-rubik font-normal 
+}
+.reting .icon{
+    @apply w-[16px] text-[#FEA250] 
+}
+.slider-text p{
+    @apply text-[16px] font-rubik font-normal w-full lg:w-[340px] h-[100px] mt-[20px]
+}
+.slick-dots {
+    @apply !flex gap-[15px] absolute bottom-[-60px]
+}
+.slick-dots li button{
+    @apply text-[0] w-[8px] h-[8px] rounded-full bg-[#DDE0E4]
+}
+.slick-dots .slick-active button{
+    @apply bg-red-500
+}
+.slider-set{
+    @apply relative
+}
+.slick-arrow {
+    @apply text-red-500 text-[60px] absolute z-20 
+}
+.slick-prev{
+    @apply absolute  right-[80px] bottom-[-80px]
+}
+.slick-arrow:hover{
+    @apply text-white bg-[#F53838] rounded-full
+}
+.slick-next{
+    @apply absolute  right-[0px] bottom-[-80px]
+}
+.slick-track .slick-active{
+    @apply border-[2px] border-[#F53838] rounded-[10px]
+}
+
+/* -=-=-=--=-=- subscribe part start-=-=-=-=-=-= */
+.subscribe{
+    @apply px-[70px] py-[58px]  shadow-[0_35px_15px_rgb(2,2,2,0.2)] flex justify-between items-center mt-[100px] lg:mt-[185px] flex-wrap lg:flex-nowrap
+}
+.subscribe-head h2{
+    @apply w-full lg:w-[371px] font-rubik font-medium text-[#0B132A] mb-[20px]
+}
+.subscribe-head p{
+    @apply text-[14px] lg:text-[16px] font-rubik font-normal text-[#4F5665] mb-[20px]
+}
+.subscribe-button a{
+    @apply py-[10px] lg:py-[18px] px-[20px] lg:px-[65px] bg-[white] text-[black] text-[10px] sm:text-[18px]  font-rubik font-light rounded-[10px] border-[2px] border-[#F53838] border-solid transition-all duration-[.5s] 
+}
+.subscribe-button a:hover{
+    @apply bg-[#f53838] text-white shadow-[0_35px_60px_-15px_rgba(245,56,56,0.6)]
+}

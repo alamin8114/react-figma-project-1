@@ -21,7 +21,6 @@
 }
 .btn2{
     @apply text-[#F53855]  border-[#F53855] 
-
 }
 .btn2:hover{
     @apply text-[#0B132A] border-transparent 
@@ -29,6 +28,6 @@
 .btn1{
     @apply border-transparent
 }
-.btn1:hover:hover{
+.btn1:hover{
     @apply text-[#F53855] border-[1px] border-[#F53855] 
 }

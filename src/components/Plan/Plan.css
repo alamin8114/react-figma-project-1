@@ -1,0 +1,44 @@
+
+
+.plan-head h1{
+    @apply lg:pt-[80px] pt-[40xp] pb-[20px] lg:text-[35px] text-[30px] font-rubik font-medium text-[#0B132A] text-center
+}
+.plan-head p{
+    @apply  text-[14px] lg:text-[16px] w-full lg:w-[555px] m-auto font-rubik font-normal text-[#4F5665] text-center
+}
+.single-plan{
+    @apply pt-[80px] pl-[93px] pb-[50px] pr-[93px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] 
+}
+.plan-box {
+    @apply flex flex-col justify-center items-center 
+}
+.plan-box img{
+    @apply w-[145px] 
+}
+.plan-box h3{
+    @apply text-[18px] font-rubik font-medium lg:mt-[30px] mt-[15px] mb-[-10px] lg:mb-[30px] flex justify-center
+}
+.plan-row{
+    @apply flex gap-[15px] lg:gap-[0px] lg:justify-between rounded-[10px] mt-[30px] lg:mt-[60px] flex-col md:flex-row md:flex-wrap xl:flex-nowrap
+}
+.text-icon{
+    @apply mt-[30px]
+}
+.icon-text{
+    @apply flex gap-[20px] items-center
+}
+.icon-text .icon{
+    @apply w-[14px] text-[#2FAB73]
+}
+.icon-text p{
+    @apply text-[14px] font-rubik font-normal 
+}
+.rate h4{
+    @apply text-[25px] text-center mt-[30px] lg:mt-[130px] mb-[20px] font-rubik font-medium
+}
+.button-last a{
+    @apply pt-[13px] transition-all rounded-[50px] duration-[.5s] pl-[63px] pb-[13px] pr-[63px] border-[2px] text-[#F53838] border-[#F53838]
+}
+.button-last a:hover{
+    @apply text-white bg-[rgb(245,56,56)] shadow-[0_35px_60px_-15px_rgba(245,56,56,0.6)]
+}

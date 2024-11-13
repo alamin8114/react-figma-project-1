@@ -2,10 +2,10 @@
     @apply  w-full mt-[103px] mb-[96px]
 }
 .alamin-main-counter{
-    @apply px-[91px] py-[68px] shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] flex justify-between
+    @apply px-[91px] py-[68px] shadow-[rgba(0,_0,_0,_0.25)_0px_25px_50px_-12px] flex justify-between flex-wrap lg:flex-nowrap items-center
 }
 .single-counter{
-    @apply flex gap-[130px]
+    @apply flex gap-[130px] 
 }
 .alamin-counter{
     @apply flex items-center gap-[37px]
@@ -20,7 +20,7 @@
     @apply flex justify-center items-center flex-col 
 }
 .counter-box{
-    @apply flex
+    @apply flex 
 }
 .count{
     @apply text-[25px] font-rubik font-bold text-[#0B132A]
@@ -29,5 +29,5 @@
     @apply text-[25px] font-rubik font-bold text-[#0B132A]
 }
 .count-line{
-    @apply w-[2px] h-[125px] bg-[#EEEFF2]
+    @apply w-[2px] h-[125px] bg-[#EEEFF2] hidden lg:block
 }

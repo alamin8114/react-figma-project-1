@@ -5,7 +5,13 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'Brand-color'     : '#F53838',
+        'secondary-color' :"#0B132A",
+        'paragraph-color' :"#4F5665",
+      },
+    },
     container: {
       center: true,
       padding: {

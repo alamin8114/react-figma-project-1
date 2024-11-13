@@ -18,7 +18,8 @@ const Provide = () => {
                     <AiOutlineCheck  className="tik-mark"/>
                     </div>
                     <p>Powerfull online protection.</p>
-                </div><div className="single-right-icon">
+                </div>
+                <div className="single-right-icon">
                     <div className="right-icon">
                     <AiOutlineCheck  className="tik-mark"/>
                     </div>
@@ -28,7 +29,8 @@ const Provide = () => {
                     <AiOutlineCheck  className="tik-mark"/>
                     </div>
                     <p>Supercharged VPN</p>
-                </div><div className="single-right-icon">
+                </div>
+                <div className="single-right-icon">
                     <div className="right-icon">
                     <AiOutlineCheck  className="tik-mark"/>
                     </div>
